@@ -1,0 +1,17 @@
+    User: Represents end-users accessing the web application through a web browser or mobile app.
+
+    Frontend:
+        React Application: The user interface of the application is built using React components.
+        HTTP Requests: Communicates with the backend using HTTP requests.
+        API Services: Handles the integration with backend APIs.
+
+    Backend:
+        Spring Boot Application: Implements the backend logic, RESTful APIs, and interacts with the database.
+        Controller (REST Endpoints): Handles incoming HTTP requests, processes them, and returns responses.
+        Service Layer: Contains business logic, interacts with data access layer, and performs necessary operations.
+        Data Access Layer: Interacts with the PostgreSQL database.
+
+    PostgreSQL Database: Stores application data.
+
+    External Services:
+        Google Maps JavaScript API used to render maps.

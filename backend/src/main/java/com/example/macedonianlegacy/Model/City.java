@@ -7,22 +7,19 @@ import lombok.RequiredArgsConstructor;
 @Entity
 @Data
 @RequiredArgsConstructor
-@Table(name = "location")
-public class Location {
+@Table(name = "city")
+public class City {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
-    private String name;
-
-    @Column(name = "category")
-    private String category;
+    @Column(name = "cityname")
+    private String cityName;
 
     @Column(name = "longitude")
-    private Float longitude;
+    private String longitude;
 
     @Column(name = "latitude")
-    private Float latitude;
+    private String latitude;
 }

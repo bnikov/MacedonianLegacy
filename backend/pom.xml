@@ -71,7 +71,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>9.21.1</version>
                 <configuration>
-                    <url>jdbc:postgresql://localhost:5432/opponex</url>
+                    <url>jdbc:postgresql://localhost:5432/DIANS</url>
                     <user>postgres</user>
                     <password>postgres</password>
                     <cleanDisabled>false</cleanDisabled>
